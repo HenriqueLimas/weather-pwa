@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "sw": "gulp generate-sw"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "sw-precache": "^5.1.1"
+  }
+}
