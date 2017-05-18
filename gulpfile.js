@@ -15,7 +15,7 @@ gulp.task('generate-sw', function () {
       handler: 'networkFirst',
       options: {
         cache: {
-          name: 'weatherData'
+          name: 'weatherData-v1'
         }
       }
     }]

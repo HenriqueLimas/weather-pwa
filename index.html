@@ -5,6 +5,20 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Weather App for UD811">
+
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#2F3BA2">
+
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="Weather">
+  <link rel="apple-touch-icon" sizes="60" href="/images/icons/apple-60.png">
+  <link rel="apple-touch-icon" sizes="76" href="/images/icons/apple-76.png">
+  <link rel="apple-touch-icon" sizes="120" href="/images/icons/apple-120.png">
+  <link rel="apple-touch-icon" sizes="152" href="/images/icons/apple-152.png">
+  <link rel="apple-touch-icon" sizes="167" href="/images/icons/apple-167.png">
+  <link rel="apple-touch-icon" sizes="180" href="/images/icons/apple-180.png">
+
   <title>Weather</title>
   <!-- Insert link to stylesheet here -->
   <link rel="stylesheet" type="text/css" href="/styles/ud811.css">
@@ -20,7 +34,7 @@
   <main class="main">
     <div class="card cardTemplate weather-forecast" hidden>
       <div class="location"></div>
-      <div class="date"></div>
+      <div class="date" data-dt="0"></div>
       <div class="description"></div>
       <div class="current">
         <div class="visual">
